@@ -4,6 +4,7 @@
 h1{
 	text-align: center;
 	margin-bottom: 20px;
+	font-size: 28px
 }
 
 section{
@@ -25,10 +26,11 @@ border: 1px solid black;
 width: 120px;
 text-align: center;
 font-weight: bold;
+font-size: 20px;
 }
 
 section p {
-	margin-top: 40px;
+	margin-top: 30px;
 	padding-right: 15px;
 	padding-left: 15px;
 }
@@ -45,7 +47,7 @@ section p {
     background-color: #38618c;
 }
 
-span.bg-blue {
+span.bg-blue, span.bg-rose {
 	color: white;
 
 }
