@@ -1,0 +1,51 @@
+body {
+  min-width: 240px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+  background-color: white;
+}
+/** HEADER **/
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-brand{
+	border-color: black;
+}
+section.container {
+	background-color: darkgray;
+}
+.navbar-default {
+    background-color: darkgray;
+    border-color: black;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff ;
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+    background-color: #000;
+}
+.navbar-default .navbar-brand {
+    color:  #000;
+    font-weight: bold;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	section.container {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+	}
